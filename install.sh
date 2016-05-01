@@ -1,4 +1,5 @@
 current_directory="$(pwd)"
+touch install_directory.txt
 
 echo "Checking for .bash_aliases...
 "
@@ -14,11 +15,12 @@ fi
 echo "alias make_shortcut='bash ${current_directory}/make_shortcut.sh'" >> ~/.bash_aliases
 echo "${current_directory}/" > install_directory.txt
 install_directory=$(cat install_directory.txt)
-printf "%s"  "alias make_shortcut_update='cd ${install_directory} && git pull origin master'" >> ~/.bash_aliases
+printf "alias make_shortcut_update='cd ${install_directory} && git pull origin master'\n" >> ~/.bash_aliases
 
 echo "
 All done!!"
-echo "Type 'make_shortcut' into terminal to create a shortcut!!"
+echo "
+Type 'make_shortcut' into terminal to create a shortcut!!"
 echo "Type 'make_shortcut_update' into terminal to update!!"
 echo "
 Go fuck yourself!!"

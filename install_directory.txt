@@ -1,1 +1,1 @@
-/media/Shared/Development/Scripts/ubuntu_scripts/make_shortcut/
+/media/Shared/Development/justins_scripts/make_shortcut/

@@ -18,6 +18,7 @@ fi
 
 echo "alias ${shortcut}='${c}'" >> ~/.bash_aliases
 
-echo "All done!!"
+echo "
+All done!!"
 echo "
 Go fuck yourself!!"
